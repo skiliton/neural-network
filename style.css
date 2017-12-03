@@ -1,0 +1,43 @@
+
+.info{
+    position:fixed;
+    z-index: 2;
+}
+.controls{
+    margin-top: 5px;
+    display: block;
+}
+.speed-controls{
+    padding-left: 10px;
+}
+.graph{
+    padding-left: 10px;
+}
+.graph > li{
+    list-style-type: none;
+}
+.world{
+    z-index: 1;
+    border: 1px solid black;
+    position:relative;
+    height: 1000px;
+    width: 1500px;
+    margin: 20px auto;
+}
+.food{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: red;
+    -webkit-transform: translate(-50%, -50%);
+}
+.creature{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 16px solid blue;
+    -webkit-transform: translate(-50%, -50%);
+}
