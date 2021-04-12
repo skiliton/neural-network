@@ -1,2 +1,2 @@
 # neural-network
-This is my school project. It was done as demonstation of how AI is actually works.
+Demo web application to showcase the basic implementation of Genetic algorithm using vanilla javascript.
